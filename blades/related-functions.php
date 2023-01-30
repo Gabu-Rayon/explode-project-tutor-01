@@ -1,16 +1,17 @@
 <html>
+
 <head>
-<title>PHP-Explode related functions</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="./../assets/css/style.css" />
+    <title>PHP-Explode related functions</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <div class="container">
         <div>
             <h4>Split string by a regular expression</h4>
-        <?php
+            <?php
         $string = ' Hello & World! & Welcome | to | learn new';
         $pattern = "/[\&,|]+/";
         print "<pre>";
@@ -55,4 +56,5 @@
         </div>
     </div>
 </body>
+
 </html>

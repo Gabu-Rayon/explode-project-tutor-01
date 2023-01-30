@@ -7,27 +7,27 @@ if (! empty($_POST["submit"])) {
 }
 ?>
 <html>
+
 <head>
-<title>PHP-Generate username</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="./../assets/css/style.css" />
+    <title>PHP-Generate username</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <div class="container">
-    <h4>Generate username</h4>
+        <h4>Generate username</h4>
         <form action="" method="post">
             <div class="row">
-                <div class="label">Enter Email</div>
+                <div class="label">Enter your mail Address</div>
                 <input type="text" name="email" class="input">
             </div>
             <div class="row">
-                <input type="submit" value="Submit" class="btn-submit"
-                    name="submit">
+                <input type="submit" value="Submit" class="btn-submit" name="submit">
             </div>
             <div class="row">
-            <?php
+                <?php
             if (! empty($result)) {
                 echo "<strong>Username :</strong> " . $result[0];
             }
@@ -36,4 +36,5 @@ if (! empty($_POST["submit"])) {
         </form>
     </div>
 </body>
+
 </html>
