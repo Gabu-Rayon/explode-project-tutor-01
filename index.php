@@ -14,9 +14,9 @@
             <div class="row">
                 <ol>
                     <li><a href="./blades/quick-example.php">quick-example.php</a></li>
-                    <li><a href="./blades/explode-with-limit.php">explode-with-limit.php</a></li>
+                    <li><a href="./blades/explode-with-limit.php">explode-within-a-limit.php</a></li>
                     <li><a href="./blades/related-functions.php">related-functions.php</a></li>
-                    <li><a href="./blades/explode-and-add-to-dropdown.php">explode-and-add-to-dropdown.php</a></li>
+                    <li><a href="./blades/explode-and-add-to-dropdown.php">explode-&-add-to-dropdown.php</a></li>
                     <li><a href="./blades/generate-username.php">generate-username.php</a></li>
                     <li><a href="./blades/get-languages-known.php">get-languages-known.php</a></li>
 
