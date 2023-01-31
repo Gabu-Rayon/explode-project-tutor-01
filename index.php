@@ -10,7 +10,7 @@
 <BODY>
     <div class="container">
         <div id="example-list">
-            <h1>PHP Explode Functions blades Include:-</h1>
+            <h1>PHP Explode Functions blades files Include:-</h1>
             <div class="row">
                 <ol>
                     <li><a href="./blades/quick-example.php">quick-example.php</a></li>
